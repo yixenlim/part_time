@@ -16,6 +16,7 @@ build-android:
       uses: ArtemSBulgakov/buildozer-action@v1
       id: buildozer
       with:
+        command: buildozer android debug
         workdir: test
         buildozer_version: stable
 
