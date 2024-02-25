@@ -4,13 +4,13 @@
 title = customer Service
 
 # (str) Package name
-package.name = testing cs
+package.name = testing_cs
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = com.example
 
 # (str) Source code where the main.py live
-source.dir = .
+source.dir = test
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
